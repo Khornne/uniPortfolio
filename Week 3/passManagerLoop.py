@@ -2,7 +2,8 @@ BAD_PASSWORDS = ['password', 'letmein', 'sesame', 'hello', 'justinbieber']
 
 
 while True:
-    Password_Input = input("Choose a password: ")   
+    Password_Input = input("Choose a password: ") 
+
     if len(Password_Input) > 8:
         print("Password must have a minimum of 8 characters")
         break
@@ -13,8 +14,8 @@ while True:
         print("Please choose a stronger password")
         break
     else:
-        print("Error! Please re-enter password")
-        break
+
+
 
     
 

@@ -1,0 +1,6 @@
+print(10 + 20 - 15)
+print(10 * 5)
+print(100 / 33)
+print(100 // 33)
+print(10 ** 2)
+print(10 % 3)

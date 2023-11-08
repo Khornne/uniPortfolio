@@ -1,5 +1,5 @@
 def displayTwice(msg):
-    """Displays inputted message twice"""
+    """Displays inputted message twice."""
     print(msg)
     print(msg)
 
@@ -9,3 +9,5 @@ results = displayTwice(message)
 
 print(message)
 
+# Task to display help
+help(displayTwice)

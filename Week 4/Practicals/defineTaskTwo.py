@@ -1,6 +1,6 @@
 def findMax(a,b):
     """Finds the maximum of two values."""
-    if ( a > b ):
+    if  a > b:
         max = a
     else:
         max = b
@@ -12,3 +12,4 @@ max_two = input("Input second value: ")
 results = findMax(max_one, max_two)
 
 print(f"The greater value is {results}")
+

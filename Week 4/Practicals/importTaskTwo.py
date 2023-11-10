@@ -1,4 +1,3 @@
 from math import log2
+print(log2(1024))
 
-log = log2(1024)
-print(log)

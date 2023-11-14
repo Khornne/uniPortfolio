@@ -13,5 +13,6 @@ print("Welcome, utils module has been imported and initialised!")
 
 if __name__ == '__main__':
    import sys
+   import my_utils
    if len(sys.argv) > 1:
-       average(sys.argv[1])
+       average(sys.argv[1:])
